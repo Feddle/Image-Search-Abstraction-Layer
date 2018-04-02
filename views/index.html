@@ -1,0 +1,46 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search Abstraction Layer</title>
+    <meta name="Image Search Abstraction Layer" content="Image Search Abstraction Layer made by Feddle">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Image Search Abstraction Layer</h1>
+      <p>Returns image links and descriptions for the given search parameter.</p>
+      <a href="https://github.com/Feddle/Image-Search-Abstraction-Layer">https://github.com/Feddle/Image-Search-Abstraction-Layer</a>
+      <h2>Example usage</h2>
+      <code>https://isal-feddle.glitch.me/search/penguins?offset=10</code>
+      <p>Latest search results can be found in:</p>
+      <code>https://isal-feddle.glitch.me/latest</code>
+      <br/>
+      <code>[{"term":"lolcats funny","when":"2018-04-02T10:39:23.356Z"},...</code>
+      <p></p>      
+      <h2>Example output</h2>
+      <code>[{"url":"https://news.nationalgeographic.com/content/dam/news/photos/000/344/34457.ngsversion.1421959500678.adapt.1900.1.jpg",<br />
+        "snippet":"Penguin Numbers Plummeting—Whales Partly to Blame?",<br />
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScOgQvjzowiNc5fBivXGvY62f-k9po3HcIRwO35zmojyhcpFfAAplLtPg7",<br />
+        "context":"https://news.nationalgeographic.com/news/2011/04/110411-penguins-antarctica-decline-krill-whales-warming-environment-animals/"},<br />
+      ...</code>            
+    </div>
+  
+
+    <!--
+    <script src="/client.js"></script>
+    -->
+  </body>
+</html>
